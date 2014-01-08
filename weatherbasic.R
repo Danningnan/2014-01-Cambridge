@@ -14,4 +14,5 @@ names(w) <- hd
 
 par(mfrow = c(2, 2))
 plot(w$Time, w[, "Temp [degC]"], type = "b", xlab = "Time", ylab = "Temp")
+plot(w$Time, w[, "Windsp  [knots]"], type = "b", xlab = "Time", ylab = "Temp")
 
