@@ -10,3 +10,5 @@ hd <- strsplit(hd, "\t")
 hd <- paste0(hd[[1]], " [", hd[[2]], "]")
 hd <- sub(" \\[\\]", "", hd)
 names(w) <- hd
+
+
